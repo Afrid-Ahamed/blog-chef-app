@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin",
-    "dev": "nodemon -r dotenv/config ./bin"
+    "start": "node index.js",
+    "dev": "nodemon -r dotenv/config index.js"
   },
   "engines": {
     "node": ">=12.18.0"
